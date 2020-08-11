@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+
+  <title>Hello, world!</title>
+</head>
+<body>
+  <div class="container">
+   <h1>Hello, world! <small>This is h1 slogan</small></h1>
+   <h2>This is a h2 <small>This is a h2 slogan</small></h2>
+   <h3>This is a h3 <small>This is a h3 slogan</small></h3>
+   <h4>This is a h4 <small>This is a h4 slogan</small></h4>
+   <h5>This is a h5 <small>This is a h5 slogan</small></h5>
+   <h6>This is a h6 <small>This is a h6 slogan</small></h6>
+   <hr>
+   <p>Lorem ipsum dolor <del>this line has been delete</del>, consectetur adipisicing elit, sed do eiusmod
+     tempor incididunt ut <u> this is a lined text </u> labore et dolore magna aliqua. Ut enim ad minim veniam,
+     quis nostrud exercitation ullamco <strong class="text-decoration-line-through">yawzahhh</strong>  laboris nisi ut aliquip ex ea commodo
+     consequat. <mark> this is a marked line </mark>Duis aute irure dolor in reprehenderit in voluptate velit esse
+     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+     proident, sunt in culpa qui <span class="text-decoration-line-through">officia deserunt mollit anim id </span>est laborum.</p>
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+       tempor incididunt ut labore <em>This line have been emphasized</em>. Ut enim ad minim veniam,
+       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+       consequat. Duis aute <em>irure dolor in reprehenderit</em> in voluptate velit esse
+       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+       proident, <strong>sunt in culpa qui officia</strong> deserunt mollit anim id est laborum.</p>
+       <hr>
+       <h2>Text alignment</h2>
+       <p class="text-left">This is left align </p>
+       <p class="text-center">This is center align </p>
+       <p class="text-right">This is right align </p>
+       <h2>List</h2>
+       <ul>
+         <li>This is item 1</li>
+         <li>This is item 2</li>
+         <li>This is item 3</li>
+       </ul>
+       <ul class="list-inline">
+         <li class="list-inline-item">This is item 1</li>
+         <li class="list-inline-item">This is item 2</li>
+         <li class="list-inline-item">This is item 3</li>
+       </ul>
+       <ul class="list-unstyled">
+         <li>This is item 1</li>
+         <li>This is item 2</li>
+         <li>This is item 3</li>
+       </ul>
+       <hr>
+       <h2>Keyboard</h2>
+       <p>To restart you type <kbd>ctrl</kbd> <kbd>alt</kbd> <kbd>del</kbd></p>
+       <p>Let us have a <code>&lt;br/&gt;</code></p>
+       <hr>
+       <h2>Colors</h2>
+       <p class="text-primary">This is a primary color</p>
+       <p class="text-secondary">This is a secondary color</p>
+       <p class="text-danger">This is  danger</p>
+       <p class="text-warning">This is warning</p>
+       <p class="text-success">This is success</p>
+       <p class="text-info">This is an info color</p>
+       <p class="bg-primary text-light">This is a color</p>
+       <p class="bg-dark text-warning text-center">This is a color</p>
+
+       <hr>
+
+       <h2>Buttons</h2>
+
+       <button class="btn btn-primary">Press me!</button>
+       <button class="btn btn-danger" disabled>Press me!</button>
+       <button class="btn btn-success">Press me!</button>
+       <button class="btn btn-outline-danger">Press me!</button>
+       <button class="btn btn-outline-info">Press me!</button>
+       <button class="btn btn-warning btn-lg">Press me!</button>
+       <button class="btn btn-danger btn-sm">Press me!</button>
+       <button class="btn btn-success btn-block mt-3">Press me!</button>
+
+       <hr>
+
+       <h2>Form Exercise</h2>
+       <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Name</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your name">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput2" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Select Gender</label>
+        <select class="form-select" aria-label="Default select example">
+          <option selected>-</option>
+          <option value="1">Male</option>
+          <option value="2">Female</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Upload file</label>
+        <div class="form-file">
+          <input type="file" class="form-file-input" id="customFile">
+          <label class="form-file-label" for="customFile">
+            <span class="form-file-text">Choose file...</span>
+            <span class="form-file-button">Browse</span>
+          </label>
+          <p class="text-secondary">Only png and jpg allowed</p>
+        </div>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          Check Me Out
+        </label>
+      </div>
+      <button class="btn btn-outline-primary mt-3">Submit</button>
+
+
+      <hr>
+
+      <h2>Table</h2>
+      <table class="table table-bordered table-striped table-hover">
+       <tr class="bg-success text-light">
+         <th>Name</th>
+         <th>Company</th>
+         <th>Country</th>
+       </tr>
+       <tr>
+         <td>Zainul</td>
+         <td>BAC</td>
+         <td>Malaysia</td>
+       </tr>
+       <tr>
+         <td>Raja</td>
+         <td>Zoobang</td>
+         <td>Germany</td>
+       </tr>
+       <tr>
+         <td>Ralf</td>
+         <td>Acca</td>
+         <td>Britian</td>
+       </tr>
+     </table>
+     <hr>
+
+     <h2>Bootstrap grit system</h2>
+
+     <!-- 1 row will have 12 grid. i will use this grids to create my section -->
+
+     <div class="row">
+       <div class="col-6">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>  
+      <div class="col-6">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>  
+    </div>
+    <hr>
+    <div class="row">
+     <div class="col-3">
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim .</p>
+     </div>
+     <div class="col-9">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>  
+    </div>
+  </div>
+  <!-- a row of 6 equally big !-->
+  <hr>
+
+  <div class="row">
+    <div class="col-2">
+      This is column 1
+      
+    </div>
+    <div class="col-2">
+      This is column 2
+      
+    </div>
+    <div class="col-2">
+      This is column 3
+      
+    </div>
+    <div class="col-2">
+      This is column 4
+      
+    </div>
+    <div class="col-2">
+      This is column 5
+      
+    </div>
+    <div class="col-2">
+      This is column 6
+      
+    </div>
+
+
+  </div>
+
+
+
+
+  <!-- a row of 3 equally big !-->
+  <hr>
+  <div class="row">
+    <div class="col-4">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+    <div class="col-4">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+    <div class="col-4">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+  </div>
+
+
+</div>
+
+<!-- Optional JavaScript -->
+<!-- Popper.js first, then Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+</body>
+</html>
